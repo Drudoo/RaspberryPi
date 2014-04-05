@@ -11,4 +11,3 @@ Different code examples that runs on the Raspberry Pi
 
 #TODO
 - Comment code...
-- Add links to blog post describing the code
