@@ -1,0 +1,1 @@
+wakeonlan $1
