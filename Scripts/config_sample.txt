@@ -1,0 +1,8 @@
+<email@domain.local>
+<password>
+INBOX
+"INBOX.To Do"
+INBOX.Done
+<imap>
+<itunes username>
+<itunes password>
