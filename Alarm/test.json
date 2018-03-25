@@ -1,0 +1,36 @@
+[
+    {
+        "id": "TESTmorning",
+        "time": {
+            "hours": 6,
+            "minutes": 30
+        },
+        "days": [
+        	{"Mon": false},
+        	{"Tue": false},
+        	{"Wed": false},
+        	{"Thu": true},
+        	{"Fri": false},
+        	{"Sat": true},
+        	{"Sun": true}
+        ],
+        "enabled": true
+    },
+    {
+        "id": "TESTevening",
+        "time": {
+            "hours": 15,
+            "minutes": 30
+        },
+        "days": [
+        	{"Mon": true},
+        	{"Tue": false},
+        	{"Wed": true},
+        	{"Thu": true},
+        	{"Fri": false},
+        	{"Sat": false},
+        	{"Sun": true}
+        ],
+        "enabled": false
+    }
+]

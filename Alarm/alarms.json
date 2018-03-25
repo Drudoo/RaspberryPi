@@ -1,0 +1,188 @@
+[
+    {
+        "id": "Arbejde",
+        "time": {
+            "hours": 5,
+            "minutes": 30
+        },
+        "days": [
+            {
+                "Mon": true
+            },
+            {
+                "Tue": true
+            },
+            {
+                "Wed": true
+            },
+            {
+                "Thu": true
+            },
+            {
+                "Fri": true
+            },
+            {
+                "Sat": false
+            },
+            {
+                "Sun": false
+            }
+        ],
+        "enabled": false
+    },
+    {
+        "id": "Fridag ",
+        "time": {
+            "hours": 6,
+            "minutes": 30
+        },
+        "days": [
+            {
+                "Mon": false
+            },
+            {
+                "Tue": false
+            },
+            {
+                "Wed": false
+            },
+            {
+                "Thu": false
+            },
+            {
+                "Fri": true
+            },
+            {
+                "Sat": false
+            },
+            {
+                "Sun": false
+            }
+        ],
+        "enabled": false
+    },
+    {
+        "id": "Hverdage",
+        "time": {
+            "hours": 5,
+            "minutes": 30
+        },
+        "days": [
+            {
+                "Mon": true
+            },
+            {
+                "Tue": false
+            },
+            {
+                "Wed": true
+            },
+            {
+                "Thu": true
+            },
+            {
+                "Fri": true
+            },
+            {
+                "Sat": false
+            },
+            {
+                "Sun": false
+            }
+        ],
+        "enabled": false
+    },
+    {
+        "id": "Tirsdag ",
+        "time": {
+            "hours": 7,
+            "minutes": 0
+        },
+        "days": [
+            {
+                "Mon": false
+            },
+            {
+                "Tue": true
+            },
+            {
+                "Wed": false
+            },
+            {
+                "Thu": false
+            },
+            {
+                "Fri": false
+            },
+            {
+                "Sat": false
+            },
+            {
+                "Sun": false
+            }
+        ],
+        "enabled": false
+    },
+    {
+        "id": "Tidlig tirsdag",
+        "time": {
+            "hours": 5,
+            "minutes": 30
+        },
+        "days": [
+            {
+                "Mon": false
+            },
+            {
+                "Tue": true
+            },
+            {
+                "Wed": false
+            },
+            {
+                "Thu": false
+            },
+            {
+                "Fri": false
+            },
+            {
+                "Sat": false
+            },
+            {
+                "Sun": false
+            }
+        ],
+        "enabled": false
+    },
+    {
+        "id": "Wake Brittney ",
+        "time": {
+            "hours": 22,
+            "minutes": 25
+        },
+        "days": [
+            {
+                "Mon": true
+            },
+            {
+                "Tue": false
+            },
+            {
+                "Wed": false
+            },
+            {
+                "Thu": false
+            },
+            {
+                "Fri": false
+            },
+            {
+                "Sat": false
+            },
+            {
+                "Sun": false
+            }
+        ],
+        "enabled": false
+    }
+]

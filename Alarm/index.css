@@ -1,0 +1,243 @@
+/* imports */
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+/* resets */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.clearfix:after {
+    content: "";
+  display: table;
+  clear: both;
+}
+
+/* global */
+body {
+  background-color: #2c3e50;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.3;
+}
+.wrapper {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 95%;
+  background-color: #2c3e50;
+}
+/*table {
+    border-collapse: collapse;
+    border:1;
+    width: 100%;
+}
+
+table, td, th {
+    border: 0px solid #95a5a6;
+    padding: 3px;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #d35400;
+}
+
+tr {
+  text-align: left;
+}
+tr:nth-child(even){background-color: #2c3e50;}
+tr:nth-child(odd){background-color: #34495e;}*/
+
+.popover.clockpicker-popover {
+    z-index: 999999;
+}
+
+.temperature {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+h2 {
+  font-weight: 700;
+}
+h3 {
+    text-align: center;
+    font-weight: 200;
+}
+
+/*button {
+
+}
+.buttonE {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100px;
+}
+.buttonD {color: #2ecc71;}*/
+
+
+div.grp {width: 180px; float: left; margin: 5px;}
+.main a:hover {color: #C0392B;}
+.music a:hover {color: #27AE60;}
+.unix a:hover {color: #2980B9;}
+.fun a:hover {color: #D35400;}
+.gfx a:hover {color: #F39C12;}
+.bits a:hover {color: #16A085;}
+.video a:hover {color: #8E44AD;}
+.misc a:hover {color: #7F8C8D;}
+.work a:hover {color: #bdc3c7;}
+.writing a:hover {color: #C0392B;}
+.sport a:hover {color: #D35400;}
+
+.main p {color: #E74C3C;}
+.music p {color: #2ECC71;}
+.unix p {color: #3498DB;}
+.fun p {color: #E67E22;}
+.gfx p {color: #F1C40F;}
+.bits p {color: #1ABC9C;}
+.video p {color: #9B59B6;}
+.misc p {color: #95A5A6;}
+.work p {color: #34495e;}
+.writing p {color: #E74C3C;}
+.sport p {color: #E67E22;}
+
+desc {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 150%;
+  font-weight:300;
+  margin-left: 15px;
+  text-transform: capitalize;
+}
+
+temp {
+  color: white;
+  font-size: 60px;
+  font-weight:100;
+}
+
+/* grid */
+[class*="row-"] {
+  margin-bottom: 20px;
+}
+[class*="row-"]:last-child {
+  margin-bottom: 0;
+}
+[class*="col-"] {
+}
+
+@media all and ( min-width: 768px ) {
+  
+  /* all cols margin */
+  [class*="col-"] {
+    margin-right: 20px;
+      border-width: thick;
+      background-color: #34495e;
+  }
+  [class*="col-"]:last-child {
+    margin-right: 0;
+  }
+  
+  /* make the columns responsive */
+  .col-1-2 {
+    float: left;
+    width: 50%;
+  }
+
+  .customCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col-1-4 {
+    float: left;
+    width: 25%;
+  }
+  .col-1-8 {
+    float: left;
+    width: 25%;
+  }
+  
+  /* 2 span rows */
+  .row-2 {
+    display: flex;
+    padding-left: 20px;
+  }
+  .row-2 [class*="col-"]:first-child {
+    margin-left: -20px;
+  }
+  
+  /* 4 span rows */
+  .row-4 {
+    display: flex;
+    padding-left: 60px;
+  }
+  .row-4 [class*="col-"]:first-child {
+    margin-left: -60px;
+  }
+  
+  /* 8 span rows */
+  .row-8 {
+    display: flex;
+    padding-left: 60px;
+  }
+  .row-8 [class*="col-"]:nth-child(4n+1) {
+    margin-left: -60px;
+  }
+  .row-8 [class*="col-"]:nth-child(5n-1) {
+    margin-right: 0;
+  }
+  .row-8 [class*="col-"]:nth-child(6n-1) {
+    clear: both;
+  }
+  
+}
+
+@media all and ( min-width: 1200px ) {
+  
+  /* adjust width */
+  .col-1-8 {
+    float: left;
+    width: 12.5%;
+  }
+  
+  /* 8 span rows */
+  .row-8 {
+    padding-left: 140px;
+  }
+  /* reset these... */
+  .row-8 [class*="col-"]:nth-child(4n+1) {
+    margin-left: 0;
+  }
+  .row-8 [class*="col-"]:nth-child(5n-1) {
+    margin-right: 20px;
+  }
+  .row-8 [class*="col-"]:nth-child(6n-1) {
+    clear: none;
+  }
+  /* and add this */
+  .row-8 [class*="col-"]:nth-child(1) {
+    margin-left: -140px;
+  }
+  
+}
+
+
